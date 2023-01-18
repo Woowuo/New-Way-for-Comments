@@ -1,5 +1,5 @@
-# NewDenotations
-An inspiration, a system of new denotations could be used to help you better understand your and others' code. For some complicated data structures(RB tree for instance), some new marks are required.
+# NewTypeofLanguages
+An inspiration, a system of new denotations could be built to represent comments. wrting comments is too annoying.
 
 ## Case1: Description of KMP algorithm
 ### Description of the Question

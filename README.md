@@ -115,8 +115,8 @@ def KMP(pattern, text)
             continue
         else
           if j != 0 and i != N
-            // next[j]: number of palindromic characters of {pattern[[0~j]]}.
-            j = [j-1]
+            //next[j]: {MAX_LEN(pattern[[0~j]],PALIM)}
+            j = next[j-1]
           elif j == 0
             i++
           else

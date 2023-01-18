@@ -130,4 +130,4 @@ def KMP(pattern, text)
             return -1
 
 ```
-To understand each expression means, Please view [Explanation]（https://github.com/Woowuo/NewMarks/blob/main/Explanations.md）
+To understand each expression means, Please view [Explanation]（https://github.com/Woowuo/NewMarks/blob/main/Explanations.md)

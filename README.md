@@ -1,14 +1,14 @@
 # NewTypeofLanguages
 
-## Introduction
+### Introduction
 An inspiration, a system of new denotations could be built to represent ***comments*** in coding. To represent algorithms, there are 2 ways:
-### 1.***Comments***
-### 2.***Programming languages***
-***Comments*** are actually belongs to ***natural language***, designed for ***developers***. But ***natural languages*** is not suitable for describing ***programming languages***,because ***programming languages*** are designed for ***machines***. So using ***natural languages*** to describe ***programming languages*** is not suitable. Writing ***comments***, are actually using ***natural languages*** to describe ***programming languages***, so it is not suitable. Therefore, a new type of language, trying to build ***connections between human and machine*** is needed and urgent.In the following article, ***comments*** will be denoted by ***Natural Language Description***, or ***Natural Language***.***Programming Languages*** will be denoted by ***code*** or ***pseudo-code***.    
+1.***Comments***
+2.***Programming languages***
+***Comments*** are actually belongs to ***natural language***, designed for ***developers***. But ***natural languages*** is not suitable for describing ***programming languages***,because ***programming languages*** are designed for ***machines***. So using ***natural languages*** to describe ***programming languages*** is not suitable. Writing ***comments***, are actually using ***natural languages*** to describe ***programming languages***, so it is not suitable. Therefore, a new type of language, trying to build ***connections between human and machine*** is needed and urgent.In the following article, ***comments*** could be denoted by ***Natural Language Description***, or ***Natural Language***,and ***Programming Languages*** could be denoted by ***Pseudo-code***.    
 
-# Scenario: 
+## Scenario: <br>
 ## 1.Algorithm Representation
-### Different Descriptions of KMP algorithms, an algorithm used to solve string-mathcing problem.
+## Different Descriptions of KMP algorithms, an algorithm used to solve string-mathcing problem.
 ### Description of the string-mathcing problem
   Given 2 strings, `text` and `pattern`. Find if `pattern` in `text`. If `pattern` is found, return the index of the firstly matched character in text. Otherwise, return -1. Suppose `next` array is already computed.
 ### Natural Language Description (***Comments***) 
@@ -101,7 +101,7 @@ def KMP(pattern, text)
             return -1
             
 ```
-### My Fashion ***(ACCESSIBLE AND CONCISE)***
+### My Solution ***(READABLE AND SIMILAR TO PROGRAMMING LANGUAGES)***
 **All the new Denotations are contained in CURLY BRACKETS**
 ```
 def KMP(pattern, text)

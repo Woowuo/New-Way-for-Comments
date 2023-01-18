@@ -1,14 +1,13 @@
  # Some Explanations of my Denotations.
-  To tracebackto introduction page, please view [Intro]
-  (https://github.com/Woowuo/NewMarks/edit/main/README.md)
-  ## 1.`M {pattern[].len} = len(pattern)`
-    ***pattern*** -> array name<br>
-    ***[]*** -> data type ***array***<br>
-    ***len*** -> array length<br>
+ ## To traceback to introduction page, please view [Intro] (https://github.com/Woowuo/NewMarks/edit/main/README.md)
+ ### 1.`M {pattern[].len} = len(pattern)`
+    1. pattern -> array name
+    2. [] -> data type array
+    3. len -> array length
     **Natural Language Description: M represents the length of an array named pattern**<br>
-  ## 2.`i{text[I]}`
+### 2.`i{text[I]}`
     ***I*** -> Index, a jargon of computer science,representing in **CAPITAL LETTERS**<br>
-    **Natural Language Description: i represents the index of an array named text.**<br>
+    Natural Language Description: i represents the index of an array named text.**<br>
   ## 3. 
   ```
   //next[j]: {MAX_LEN(SET(pattern[[0~j]]),PALIM)}.

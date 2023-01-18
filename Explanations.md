@@ -1,5 +1,5 @@
  # Some Explanations of my Denotations.
-  
+  To tracebackto introduction page, please view[Intro](https://github.com/Woowuo/NewMarks/edit/main/README.md)
   1.`M {pattern[].len} = len(pattern)`<br>
     ***pattern*** -> array name<br>
     ***[]*** -> data type ***array***<br>

@@ -96,10 +96,6 @@ def KMP(pattern, text)
 ```
 ### My Fashion***(ACCESSIBLE AND CONCISE)***
 **All the new Denotations are contained in CURLY BRACKETS***
-1.Why Contained in CURLY BRACKETS?
-  This character has not appeared in previous pseudo-code to help discriminate my own new fashion from the existed fashion.
-2.If I'd like to represent other data structures, e.g., ***stack***, how should I do?
-  We need new marks to directly represent all kinds of data structures.**SO WE NEED YOUR CONTRIBUTION!** 
 ```
 def KMP(pattern, text)
 
@@ -126,6 +122,4 @@ def KMP(pattern, text)
             return -1
 
 ```
-### Some explanations of the meaning of my denotations
-  1.`M {pattern[].len} `  M is derived from an array **
 

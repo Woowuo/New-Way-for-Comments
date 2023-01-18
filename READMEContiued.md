@@ -17,9 +17,9 @@
   ***pattern[[0~j]]*** -> The substring of `pattern` from index 0 to index j(inclusive)<br>
   ***MAX_LEN()*** -> Like a function, return the max size of an array, and the array must satisfies the second parameter,which describes the attribute of the array.<br>
   ***PALIM*** -> Palimdromic, a jargon of computer science,representing in **CAPITAL LETTERS**<br>
-  **Natural Language Description:<br> next[j] represents the max length of a string,which belongs to a set of strings. The set of strings must satisfies the following conditions:<br> 1.Any string of the set is a subsequence of an substring of pattern[0~j].<br>
-  2.The subsequence must starting from index 0, ending index must <= j.<br>
-  3.The subsequence must be palindromic.**
+  **Natural Language Description:<br> next[j] represents the max length of a string,which belongs to a set of strings. The set of strings must satisfies the following conditions:<br> 1.Any string of the set is an substring of pattern[0~j].<br>
+  2.The substring must starting from index 0, ending index must <= j.<br>
+  3.The substring must be palindromic.**
   
   
 

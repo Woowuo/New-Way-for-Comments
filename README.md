@@ -38,7 +38,7 @@ def KMP(pattern, text)
           
 ```
 ### Current Fashion ***(mix-up of Code and Comments)*** 
-**Trying to Balance ACCESSIBILITY and SIMILARITY to Real Code,But could be AMELIORATED**
+**Trying to Balance  and SIMILARITY to Real Code,But could be AMELIORATED**
 ```
 def KMP(pattern, text)
     

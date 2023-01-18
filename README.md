@@ -1,4 +1,4 @@
-# NewTypeofLanguages
+# New Type of Languages
 An inspiration, a system of new denotations could be built to represent comments. Writing comments is too annoying.
 
 ## Case1: Description of KMP algorithm
@@ -120,7 +120,7 @@ def KMP(pattern, text)
             continue
         else
           if j != 0 and i != N
-            //next[j]: {MAX_LEN(pattern[[0~j]],PALIM)}
+            //next[j]: {MAX_LEN(SET(pattern[[0~j]]),PALIM)}
             j = next[j-1]
           elif j == 0
             i++

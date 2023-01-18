@@ -94,7 +94,7 @@ def KMP(pattern, text)
             return -1
             
 ```
-### My Fashion***(ACCESSIBLE AND CONCISE)***
+### My Fashion ***(ACCESSIBLE AND CONCISE)***
 **All the new Denotations are contained in CURLY BRACKETS***
 ```
 def KMP(pattern, text)

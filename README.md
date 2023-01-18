@@ -33,7 +33,7 @@ def KMP(pattern, text)
             j = next[j-1]
           elif j == 0
             i++
-           else
+          else
             return 0
           
 ```

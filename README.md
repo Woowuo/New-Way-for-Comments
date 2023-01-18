@@ -1,10 +1,9 @@
 # New Type of Languages
 
-### Introduction
-An inspiration, a system of new denotations could be built to represent ***comments*** in coding. To represent algorithms, there are 2 ways:
-1.***Comments***
-2.***Programming languages***
-***Comments*** are actually belongs to ***natural language***, designed for ***developers***. But ***natural languages*** is not suitable for describing ***programming languages***,because ***programming languages*** are designed for ***machines***. So using ***natural languages*** to describe ***programming languages*** is not suitable. Writing ***comments***, are actually using ***natural languages*** to describe ***programming languages***, so it is not suitable. Therefore, a new type of language, trying to build ***connections between human and machine*** is needed and urgent.In the following article, ***comments*** could be denoted by ***Natural Language Description***, or ***Natural Language***,and ***Programming Languages*** could be denoted by ***Pseudo-code***.    
+## Introduction
+  An inspiration, a system of new denotations could be built to represent ***comments*** in coding. To represent algorithms, there are 2 ways:
+1.Comments
+2.Programming languages***Comments*** are actually belongs to ***natural language***, designed for ***developers***. But ***natural languages*** is not suitable for describing ***programming languages***,because ***programming languages*** are designed for ***machines***. So using ***natural languages*** to describe ***programming languages*** is not suitable. Writing ***comments***, are actually using ***natural languages*** to describe ***programming languages***, so it is not suitable. Therefore, a new type of language, trying to build ***connections between human and machine*** is needed and urgent.In the following article, ***comments*** could be denoted by ***Natural Language Description***, or ***Natural Language***,and ***Programming Languages*** could be denoted by ***Pseudo-code***.    
 
 ## Scenario: <br>
 ## 1.Algorithm Representation
@@ -130,4 +129,4 @@ def KMP(pattern, text)
             return -1
 
 ```
-
+To understand each expression means, Please view [Explanation]

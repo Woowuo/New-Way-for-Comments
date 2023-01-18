@@ -19,7 +19,7 @@
   ***PALIM*** -> Palimdromic, a jargon of computer science,representing in **CAPITAL LETTERS**<br>
   **Natural Language Description:<br> next[j] represents the max length of a string,which belongs to a set of strings. The set of strings must satisfies the following conditions:<br> 1.Any string of the set is a subsequence of an substring of pattern[0~j].<br>
   2.The subsequence must starting from index 0, ending index must <= j.<br>
-  3.The subsequence must be palindromic.br<>**
+  3.The subsequence must be palindromic.**
   
   
 

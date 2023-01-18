@@ -1,5 +1,5 @@
-# NewMarks
-An inspiration, a system of new marks could be used to help you better understand your and others' code
+# NewDenotations
+An inspiration, a system of new denotations could be used to help you better understand your and others' code. For some complicated data structures(RB tree for instance), some new marks are required.
 
 ## Case1: Description of KMP algorithm
 ### Description of the Question
@@ -9,7 +9,7 @@ An inspiration, a system of new marks could be used to help you better understan
   1. Create a `next` array,which stores the number of palindromic characters from `pattern` 's first index to `pattern` 's currently visited index.
   2. Create 2 `next` values, `i` and `j`. `i`  stores the index of the currently visited character in `text` string, `j`  stores the index of the currently visited character in `pattern` string. Both `i` and `j` are initialized to 0.
   3. Compare `text[i]` with `pattern[j]`. Case1: They are identical and `j` has not yet reaches the end of the `pattern` array, `i++` and `j++`.  Case2: They are identical and `j` has already reaches the end of the `pattern` array, which means the `pattern` is found in `text`. Return `i - j`.Case3: They are distinct. And `j` is not the beginning character of the `pattern`. And `i` is not the ending character of the `text` string. In this case, `j = next[j-1]` . Case4:  They are distinct. And `j` is the beginning character of the `pattern`. And `i` is not the ending character of the `text` string. In this case, `i++`. Case5: They are distinct. And `i` has reached the end of `text`. In this case, return -1.
-### Pseudo-code(***A more Concise way for Human Reading and Understanding***)
+### Pseudo-code ***(A more Concise way for Human Reading and Understanding)***
 **Similar to Real Code, but too UNREADABLE**
 ```
 def KMP(pattern, text)
@@ -37,7 +37,7 @@ def KMP(pattern, text)
             return 0
           
 ```
-### Current Fashion (***mix-up of Code and Comments***) 
+### Current Fashion ***(mix-up of Code and Comments)*** 
 **Trying to Balance ACCESSIBILITY and SIMILARITY to Real Code,But could be AMELIORATED**
 ```
 def KMP(pattern, text)
@@ -91,34 +91,41 @@ def KMP(pattern, text)
             In this case, return -1. 
           */
           else
-            return 0
+            return -1
             
 ```
 ### My Fashion***(ACCESSIBLE AND CONCISE)***
+**All the new Denotations are contained in CURLY BRACKETS***
+1.Why Contained in CURLY BRACKETS?
+  This character has not appeared in previous pseudo-code to help discriminate my own new fashion from the existed fashion.
+2.If I'd like to represent other data structures, e.g., ***stack***, how should I do?
+  We need new marks to directly represent all kinds of data structures.**SO WE NEED YOUR CONTRIBUTION!** 
 ```
 def KMP(pattern, text)
 
-    M = len(pattern)
-    N = len(text)
+    M {pattern[].len} = len(pattern)
+    N {text[].len} = len(text)
  
-    i = 0
-    j = 0 
+    i {text[I]}= 0
+    j {pattern[I]}= 0 
     
-    while (i < N):
+    while (i{text[I]} < N{text[].len}):
         if pattern[j] == text[i]:
           i += 1
           j += 1
-          if j == M:
+          if j == M{pattern[].len}:
             return (i - j)
           else
             continue
         else
           if j != 0 and i != N
-            j = next[j-1]
+            j = next{[],Palim}[j-1]
           elif j == 0
             i++
           else
-            return 0
+            return -1
 
 ```
+### Some explanations of the meaning of my denotations
+  1.`M {pattern[].len} `  M is derived from an array **
 

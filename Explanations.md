@@ -1,19 +1,20 @@
  # Some Explanations of my Denotations.
-  To tracebackto introduction page, please view[Intro](https://github.com/Woowuo/NewMarks/edit/main/README.md)
-  1.`M {pattern[].len} = len(pattern)`<br>
+  To tracebackto introduction page, please view [Intro]
+  (https://github.com/Woowuo/NewMarks/edit/main/README.md)
+  ## 1.`M {pattern[].len} = len(pattern)`
     ***pattern*** -> array name<br>
     ***[]*** -> data type ***array***<br>
     ***len*** -> array length<br>
     **Natural Language Description: M represents the length of an array named pattern**<br>
-  2.`i{text[I]}`<br>
+  ## 2.`i{text[I]}`
     ***I*** -> Index, a jargon of computer science,representing in **CAPITAL LETTERS**<br>
     **Natural Language Description: i represents the index of an array named text.**<br>
-  3. 
+  ## 3. 
   ```
   //next[j]: {MAX_LEN(SET(pattern[[0~j]]),PALIM)}.
   j = [j-1]
   ```
-  This expression shows an example of syntax of my language.
+  This expression shows an example of syntax of my language.<br>
   ***SET*** -> A type name(typeid in C++) of Data Structure, representing in **CAPITAL LETTERS**, could use different symbols to represent it in future<br>
   To represent array, I have used ***[]***, ***[]*** and ***SET*** are actually the same things<br>
   ***pattern[[0~j]]*** -> The substring of `pattern` from index 0 to index j(inclusive)<br>

@@ -34,7 +34,7 @@ def KMP(pattern, text)
           elif j == 0
             i++
           else
-            return 0
+            return -1
           
 ```
 ### Current Fashion ***(mix-up of Code and Comments)*** 

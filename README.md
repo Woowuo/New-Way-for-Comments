@@ -165,14 +165,14 @@ def KMP(pattern, text)
 To be continued, I will show you another example that this method will GREATLY enhance the readability of code.<br>
 [Example Code]https://users.cs.fiu.edu/~weiss/dsaa_c2e/avltree.c
 
-In this snippet of code, assume that an AVL tree test is calling the function. I suppose using **Nature Language Description** to comment will cost too much characters, just as follows:
+In the following snippet of code, assume that an AVL tree test is calling the function. I suppose using **Nature Language Description** to comment will cost too much characters.
 ```
 Position FindMin( AvlTree T )
 {
   if( T == NULL )// The Height of T is -1 
     return NULL;
     
-  // T has only right child,
+  // T has no left child,
   // T->ElemenType is minimum value of the AVL tree test
   else if( T->Left == NULL )
      return T;
@@ -186,7 +186,7 @@ With my new method, the complete version(including code and comments) would be l
 ```
 Position FindMin( AvlTree T )
 {
-   // T:{H == -1}
+   // T:{H = -1}
   if( T == NULL ) 
     return NULL;
   
@@ -199,4 +199,9 @@ Position FindMin( AvlTree T )
 }
 
 ```
-Explanations:
+Explanations:<br>
+### 1.`T: {H = -1}`
+1. The height of the node T is -1, that is, T is a null node.
+### 2.`T:{(!LeftChild)}, T->Element: {MIN(AVL test)}`
+2. Node T has no Left Child, the Element of T is the minimum element of the AVL tree test.
+

@@ -201,7 +201,7 @@ Position FindMin( AvlTree T )
 ```
 Explanations:<br>
 ### 1.`T: {H = -1}`
-1. The height of the node T is -1, that is, T is a null node.
+The height of the node T is -1, that is, T is a null node.
 ### 2.`T:{(!LeftChild)}, T->Element: {MIN(AVL test)}`
-2. Node T has no Left Child, the Element of T is the minimum element of the AVL tree test.
+Node T has no Left Child, the Element of T is the minimum element of the AVL tree test.
 

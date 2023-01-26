@@ -161,6 +161,6 @@ def KMP(pattern, text)
   **Natural Language Description:<br> next[j] represents the max length of a string,which belongs to a set of strings.<br>
   The set of strings must satisfies the following conditions:<br> 1.Any string of the set is an substring of pattern[0~j].<br>
   2.The substring must starting from index 0, ending index must <= j.<br>
-  3.The substring must be palindromic.**<br><br>
-To be continued, I will show you another example that this method will GREATLY enhance the readability of code.
+  3.The substring must be palindromic.**<br>
+To be continued, I will show you another example that this method will GREATLY enhance the readability of code.<br>
 [Example Code]https://users.cs.fiu.edu/~weiss/dsaa_c2e/avltree.c

@@ -162,4 +162,5 @@ def KMP(pattern, text)
   The set of strings must satisfies the following conditions:<br> 1.Any string of the set is an substring of pattern[0~j].<br>
   2.The substring must starting from index 0, ending index must <= j.<br>
   3.The substring must be palindromic.**
- 
+To be continued, I will show you another example that this method will GREATLY enhance the readability of code.
+[Example Code]https://users.cs.fiu.edu/~weiss/dsaa_c2e/avltree.c

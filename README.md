@@ -164,3 +164,39 @@ def KMP(pattern, text)
   3.The substring must be palindromic.**<br>
 To be continued, I will show you another example that this method will GREATLY enhance the readability of code.<br>
 [Example Code]https://users.cs.fiu.edu/~weiss/dsaa_c2e/avltree.c
+
+In this snippet of code, assume that an AVL tree test is calling the function. I suppose using **Nature Language Description** to comment will cost too much characters, just as follows:
+```
+Position FindMin( AvlTree T )
+{
+  if( T == NULL )// The Height of T is -1 
+    return NULL;
+    
+  // T has only right child,
+  // T->ElemenType is minimum value of the AVL tree test
+  else if( T->Left == NULL )
+     return T;
+     
+  else
+     return FindMin( T->Left );// T is no
+}
+
+```
+With my new method, the complete version(including code and comments) would be like:
+```
+Position FindMin( AvlTree T )
+{
+   // T:{H == -1}
+  if( T == NULL ) 
+    return NULL;
+  
+  // T:{(!LeftChild)}, T->Element: {MIN(AVL test)}  
+  else if( T->Left == NULL )
+     return T;
+     
+  else
+     return FindMin( T->Left );// T is no
+}
+
+```
+Explanations:

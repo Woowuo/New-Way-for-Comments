@@ -1,4 +1,4 @@
-# New Type of Languages
+# A new way to write your comments
 An inspiration, a system of new denotations could be built to represent comments. Writing comments is too annoying.
 
 ## Case1: Description of KMP algorithm

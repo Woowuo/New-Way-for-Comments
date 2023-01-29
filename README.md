@@ -9,7 +9,7 @@ An inspiration, a system of new denotations could be built to represent comments
   1. Create a `next` array
   2. Create 2 `next` values, `i` and `j`. `i`  stores the index of the currently visited character in `text` string, `j`  stores the index of the currently visited character in `pattern` string. Both `i` and `j` are initialized to 0.
   3. Compare `text[i]` with `pattern[j]`. <br>Case1: They are identical and `j` has not yet reaches the end of the `pattern` array, `i++` and `j++`.<br> Case2: They are identical and `j` has already reaches the end of the `pattern` array, which means the `pattern` is found in `text`. Return `i - j`.<br>Case3: They are distinct. And `j` is not the beginning character of the `pattern`. And `i` is not the ending character of the `text` string. In this case, `j = next[j-1]` .<br> Case4:  They are distinct. And `j` is the beginning character of the `pattern`. And `i` is not the ending character of the `text` string. In this case, `i++`.<br>Case5: They are distinct. And `i` has reached the end of `text`. In this case, return -1.<br>
-### Pseudo-code ***(A more Concise way for Human Reading and Understanding)***
+### Pseudo-code ***(A more Concise way,but too hard for Human Reading and Understanding)***
 **Similar to Real Code, but too UNREADABLE**
 ```
 def KMP(pattern, text)

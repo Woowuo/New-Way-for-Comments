@@ -128,18 +128,18 @@ def KMP(pattern, text)
             return -1
 
 ```
-### 1.`M {pattern[].len} = len(pattern)`
+### 1.`M：{pattern[].len} `
     1. pattern -> array name
     2. [] -> data type array
     3. len -> array length
    **Natural Language Description: M represents the length of an array named pattern**<br>
-### 2.`i{text[I]}`
+### 2.`i：{text[I]}`
     1. I -> Index, a jargon of computer science,representing in CAPITAL LETTERS
    **Natural Language Description: i represents the index of an array named text.**<br>
   ## 3. 
   ```
   //next[j]: {MAX_LEN(SET(pattern[[0~j]]),PALIM)}.
-  j = [j-1]
+  j = next[j-1]
   ```
   **This expression shows an example of syntax of my language.**<br>
   ``` SET -> A type name(typeid in C++) of Data Structure, representing in CAPITAL LETTERS, could use different symbols to represent it in future.

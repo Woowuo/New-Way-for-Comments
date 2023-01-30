@@ -138,30 +138,16 @@ def KMP(pattern, text)
    **Natural Language Description: i represents the index of an array named text.**<br>
   ## 3. 
   ```
-  //next[j]: {MAX_LEN(SET(pattern[[0~j]]),PALIM)}.
+  //next[j]: {IF pattern[0~j] IS PALIM: j/2 +1 DEFAULT:0}.
+  //next[0] == 0
   j = next[j-1]
   ```
-  **This expression shows an example of syntax of my language.**<br>
-  ``` SET -> A type name(typeid in C++) of Data Structure, representing in CAPITAL LETTERS, could use different symbols to represent it in future.
+  **This expression shows an example of syntax of my language. The value of next[j] equals to:**<br>
+  1.If the substring of pattern starting from index 0, ending at index j is **palindromic**, next[j] = j/2 + 1
+  2.If this substring is not **palimdromic**, next[j] will be set to default value, that is 0.
+  3.next[0] is **always 0**.
+  **Natural Language Description:<br> next[j] represents the maximum length with the same prefix and suffix in [0, i-1] before i<br>
   1. To represent array, I have used [], [] and SET are actually the same, both used to describe the name of data structure.
-  2. pattern[[0~j]] -> The substring of `pattern` from index 0 to index j(inclusive)
-  3. SET(pattern[[0~j]] -> A set consists of substrings of `pattern`.The substrings in this set must starting from index 0, 
-  ending index must <= j
-  4. MAX_LEN() -> Like a function, could be overloaded.In this version of overloading, MAX_LEN() takes 2 parameters.
-  
-     1.The first parameter is a kind of `std::multiset` in C++, or just multiset in mathematics, a kind of collection of different elements.
-     
-     2.The second parameter is A descriptive jargon in Computer Science(adjective slangs),such as palindromic, abbreviated to PALIM in my syntax
-  
-  The return value of the MAX_LEN means: The element in the multiset which has max size, and this element must satisfies the second parameter.
-  In this case, Please view Natural Language Description.
-  
-  5.PALIM -> Palindromic, a jargon of computer science,representing in CAPITAL LETTERS
-  ```
-  **Natural Language Description:<br> next[j] represents the max length of a string,which belongs to a set of strings.<br>
-  The set of strings must satisfies the following conditions:<br> 1.Any string of the set is an substring of pattern[0~j].<br>
-  2.The substring must starting from index 0, ending index must <= j.<br>
-  3.The substring must be palindromic.**<br>
 To be continued, I will show you another example that this method will GREATLY enhance the readability of code.<br>
 [Example Code]https://users.cs.fiu.edu/~weiss/dsaa_c2e/avltree.c
 
